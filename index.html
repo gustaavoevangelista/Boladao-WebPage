@@ -1,18 +1,85 @@
 <!DOCTYPE html>
 <html lang ="pt-br">
     <head>
-        <title>My WebPage</title>
+        <title>Boladão Team</title>
         <meta charset="utf-8">
         <link rel="stylesheet" type = "text/css"  href="bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" type = "text/css" href="style/main.css">
     </head>
 
     <body>
-        <nav class="navbar navbar-expand-lg light">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="#">
-                <img src="" alt="">
+                PrimeiroDê
             </a> 
+            
+            <div class="collapse navbar-collapse" >
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quemsomos">Quem somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#parceiros">Parceiros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#parceiros">Serviços</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
+
+        <section id="quemsomos">
+            <div class="container-fluid quem-somos text-center margin">
+                <h3 class="margin">Quem somos</h3>
+                <img src="img/amiraldo.png" alt="amiraldo" class="rounded-circle" width="170" height="170">
+                <img src="img/dinis.png" alt="dinis" class="rounded-circle" width="170" height="170">
+                <img src="img/luiz.png" alt="luiz" class="rounded-circle" width="170" height="170">
+                <img src="img/moreira.png" alt="moreira" class="rounded-circle" width="170" height="170">
+                <img src="img/vasco.png" alt="vasco" class="rounded-circle" width="170" height="170">
+                <img src="img/yev.png" alt="yev" class="rounded-circle" width="170" height="170">
+                <img src="img/gustavo.png" alt="gustavo" class="rounded-circle" width="170" height="170">
+                <h2 class="margin">Um bando de doido querendo ser programador!</h2>
+            </div>
+        </section>
+
+        <section id="parceiros">
+            <div class="container-fluid text-center margin parceiros">
+                <h3 class="margin">Parceiros</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="img/freecodecamp.png" alt="Freecodecamp" width="100%" height="350px">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/turbine.png" alt="Turbine Kreuzberg" width="100%" height="350px">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/coquet.png" alt="Coquet Consulting" width="100%" height="350px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicos">
+            <div class="container-fluid text-center margin servicos">
+                <h3 class="margin">SERVIÇOS</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <p>Desenvolvemos os melhores apps para desktop.</p>
+                            <img src="img/desktop.jpg" alt="Desktop apps" width="100%" height="350px">
+                        </div>
+                        <div class="col-lg-6">
+                            <p>Damos aula em como montar um app para mobile.</p>
+                            <img src="img/mobile.jpg" alt="Mobile apps" width="100%" height="350px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="container-fluid text-center bg-footer margin">Developed by Gustavo Evangelista from Boladão Team</footer>
     </body>
 
 </html>
